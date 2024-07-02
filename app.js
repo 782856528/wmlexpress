@@ -48,6 +48,6 @@ app.use('/api',commonRouter)
     console.log("发生了错误" + err.message)
     res.send('home page' + err.message)
   })
-app.listen(80, () => {
+app.listen(9090, () => {
     console.log('服务器已启动(地址：http://127.0.0.1)')
 })
